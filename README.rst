@@ -57,8 +57,7 @@ corresponding the the wagtail version you are using.
 
     INSTALLED_APPS = [
         'wagtailsvg',
-        'wagtail.contrib.modeladmin', # only for wagtail <5.2
-        'wagtail_modeladmin',  # only for wagtail >=5.2
+        'wagtail_modeladmin',
         'generic_chooser',
         ...
     ]
